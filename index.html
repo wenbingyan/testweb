@@ -6,6 +6,7 @@
    	 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 		<title></title>
 		<link rel="stylesheet" type="text/css" href="css/zepto.fullpage.css"/>
+                <script src="./js/recruitH5-vendor-0.1.0.js"></script>
                 <style type="text/css">
 		.wp {
                     position: absolute;
@@ -17,12 +18,19 @@
                     overflow: hidden;
                     /* 标准的语法 */
                 }
+                .page1{
+                    background:pink;
+                }
+                .page2{
+                    background:blue;
+                }
+                .page3{
+                    background:yellow;
+                }
+                .page4{
+                    background:#ccc;
+                }
                 </style>
-                <script type="text/javascript">
-
-                        $('.wp-inner').fullpage({});
-
-                </script>
 	</head>
 	
 	<body>
@@ -34,7 +42,10 @@
 		        <div class="page page4" >4</div>
 		    </div>
 		</div>
-	</body>
+	<script type="text/javascript">
 	
+		$('.wp-inner').fullpage({});
+		
+	</script>
+        </body>
 </html>
-
